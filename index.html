@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <!-- Linking HTML to CSS file -->
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>bulgern_portfolio</title>
+    <title>Bulger Portfolio</title>
 </head>
 
 <body>
@@ -29,20 +29,19 @@
                 <li>
                     <a href="#contact-me">Contact Me</a>
                 </li>
-                <!-- Linking to my resume -->
-                <li>
-                    <a href="#resume">Resume</a>
-                </li>
             </ul>
         </nav>
     </header>
 
     <main>
+        <!-- Linking to the background image above the about me section -->
         <img src="./assets/images/bandera_pano.jpeg" alt="Panorama of Bandera Mountain Hike in Washington State" class="bandera">
+        <!-- Opening the about me article of webpage -->
         <article class="about-me" id="about-me">
             <aside>
                 <h1>About Me</h1>
-                <img src="./assets/images/BulgerN_VTech Photo.jpg" alt="Profile Photo" class="profile-photo">
+                <!-- Linking to profile photo on the left side of the about me paragraphs-->
+                <img src="./assets/images/BulgerN_VTech Photo.jpg" alt="Profile Photo of Natalie standing in front of Harborview Medical Center in Seattle Washington wearing a blank turtleneck and pink/black flowered skirt" class="profile-photo">
             </aside>
             <section>
                  <!-- Paragraph about my background -->
@@ -57,31 +56,54 @@
         </article>
 
         <article class="work" id="work">
-            <aside>
-                <h1>Work</h1>
-            </aside>
-            <!-- Section for project #1 -->
-            <section class="project-1">
-                <h2>Project #1</h2>
-                <p>HTML/CSS</p>
+            <section class="card-column-header">
+                <figure>
+                  <h2 class="card-header">Work</h2>
+                </figure>
             </section>
-            <!-- Section for project #2 and #3 -->
-            <section class="project-2-3">
-                <h2>Project #2</h2>
-                <p>Javascript/CSS</p>
-                <h2>Project #3</h2>
-                <p>Insert Coding Language</p>
+              <section class="card-column-1" onclick='location.href = "https://www.w3schools.com";'>
+                <figure class="card-1">
+                    <h2 class="card-header">Project 1</h2>
+                    <div class="card-body">
+                    <p>CSS/HTML</p>
+                    </div>
+                </figure>
             </section>
-            <!-- Section for projects #4 and #5 -->
-            <section class="project-4-5">
-                <h2>Project #4</h2>
-                <p>Insert Coding Language</p>
-                <h2>Project #5</h2>
-                <p>Insert Coding Language</p>
+            <section class="card-column-2" onclick='location.href = "https://github.com/";'>
+                <figure class="card-2">
+                    <h2 class="card-header">Project 2</h2>
+                    <div class="card-body">
+                    <p>Javascript</p>
+                    </div>
+                </figure>
+            </section>
+            <section class="card-column-3" onclick='location.href = "https://stackoverflow.com/";'>
+                <figure class="card-3">
+                    <h2 class="card-header">Project 3</h2>
+                    <div class="card-body">
+                    <p>Insert Coding Language Here</p>
+                    </div>
+                </figure>
+            </section>
+            <section class="card-column-4" onclick='location.href = "https://flexboxfroggy.com/";'>
+                <figure class="card-4">
+                  <h2 class="card-header">Project 4</h2>
+                  <div class="card-body">
+                    <p>Insert Coding Language Here</p>
+                  </div>
+                </figure>
+            </section>
+            <section class="card-column-5" onclick='location.href = "https://www.freecodecamp.org/";'>
+                <figure class="card-5">
+                  <h2 class="card-header">Project 5</h2>
+                  <div class="card-body">
+                    <p>Insert Coding Language Here</p>
+                  </div>
+                </figure>
             </section>
         </article>
 
-        <article class="contact-me" id="contact-me">
+        <footer class="contact-me" id="contact-me">
             <aside>
                 <h1>Contact Me</h1>
             </aside>
@@ -105,14 +127,7 @@
                     </li>
                 </ul>
             </nav>
-        </article>
-
-        <article class="resume" id="resume">
-            <aside>
-                <h1>Resume</h1>
-            </aside>
-            <a href="/Users/natalie/Desktop/school_work/homework/bulgern-portfolio/assets/images/NatalieBulger_Resume_July2021.pdf" target="_blank">Resume PDF</a>
-        </article>
+        </footer>
     </main>
 </body>
 
