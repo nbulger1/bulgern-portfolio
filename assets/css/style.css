@@ -1,0 +1,174 @@
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+}
+
+/* Body format */
+body {
+    /* defining the overall background color unless otherwise specified */
+    background-color: lavenderblush;
+    font-family: Arial;
+    margin: 0;
+}
+p {
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Header format */
+.header {
+    display: flex;
+    background-color: #301934;
+    justify-content: space-evenly;
+    /* Font color white */
+    color: #ffffff;
+    display: flex;
+}
+
+.header aside {
+    flex: 2;
+    align-items: center;
+    font-size: 24px;
+    margin-left: 2px;
+}
+
+.header .header-nav {
+    flex: 2;
+    background-color: #30193433;
+    padding: 20px;
+}
+
+.header-nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header a {
+    cursor: pointer;
+    color: white;
+}
+
+.header a:hover {
+    color: aquamarine;
+    font-size: 20px;
+}
+
+.bandera {
+    width: 100%;
+}
+
+.about-me, .contact-me, .resume {
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+}
+
+.about-me {
+    /* Turn element into a flexbox */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-me aside {
+    flex: 1;
+    border-right-color: black;
+    border-right-width: 2px;
+    border-right-style: solid;
+}
+
+.about-me section {
+    flex: 3;
+    background-color: #30193433;
+    padding: 20px;
+}
+
+.profile-photo {
+    background-color: white;
+    width: 60%;
+    padding: 5px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.work {
+    display: flex;
+    row-gap: 20px;
+    column-gap: 10em;
+}
+
+.work aside {
+    flex: 1;
+    border-right-color: black;
+    border-right-width: 2px;
+    border-right-style: solid;
+}
+
+.contact-me {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-me aside {
+    flex: 1;
+    align-items: center;
+    border-right-color: black;
+    border-right-width: 2px;
+    border-right-style: solid;
+}
+
+.contact-me .contact-nav {
+    flex: 3;
+    background-color: #30193433;
+    padding: 20px;
+}
+
+.contact-nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-me a {
+    cursor: pointer;
+    color: black;
+}
+
+.contact-me a:hover {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.resume {
+    /* Turn element into a flexbox */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.resume aside {
+    flex: 1;
+    align-items: center;
+    border-right-color: black;
+    border-right-width: 2px;
+    border-right-style: solid;
+}
+
+.resume a {
+    flex: 3;
+    background-color: #30193433;
+    padding: 20px;
+    cursor: pointer;
+    color: black;
+}
+
+.resume a:hover {
+    color: white;
+    font-size: 20px;
+}
