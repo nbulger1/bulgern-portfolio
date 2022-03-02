@@ -53,6 +53,7 @@ main {
     flex: 2;
     background-color: var(--purple);
     padding: 20px;
+    font-size: 20px;
 }
 
 /* Evenly space out the navigation bar and remove the list style */
