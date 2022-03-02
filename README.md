@@ -25,11 +25,13 @@ Finally, the portfolio should demonstrate a responsive layout that adapts to the
 
 The header and initial background image are formatted above the remaining sections to create a natural flow. The header presents my last name and three navigation links that, when clicked, will scroll to the corresponding section. The background it set to take up 100% of the webpage width so that it will resize for different screen sizes. It is a picture of me on the Bandera Mountain Hike in Washington State to bring character to my page. I added in an alternate image attribute that describes the location of the image should a viewer be unable to see the image. 
 
-![The header with navigation links as well as background image](/Users/natalie/Desktop/school_work/homework/bulgern-portfolio/assets/images/header_background_image.png "Header and Background Image")
+![The header with navigation links as well as background image](https://raw.githubusercontent.com/nbulger1/bulgern-portfolio/main/assets/images/header_background_image.png "Header and Background Image")
 
 ## About
 
 The "About Me" article was broken into an aside and two paragraphs. The aside holds the recent profile photo with an altrnate image attribute as well. The paragraphs were divided into my general background, both educational and perinent employment, and the reason I decided to take the UW coding bootcamp. The paragraphs were placed in a flexbox so that they wrap text when needed as the page is resized. 
+
+![The about me section of the webpage with profile photo and paragraphs](https://raw.githubusercontent.com/nbulger1/bulgern-portfolio/main/assets/images/about_me.png "About Me")
 
 ## Projects
 
@@ -40,6 +42,9 @@ Resizing?
 ## Contact
 
 The Contact Me footer presents a title - "Contact Me" - as an aside and four links. The first link directs the user to a phone call, the second directs to an email address, and the third/fourth will open a new tab with my Github profile and my LinkedIn page. The links were spaced out within the footer using flexbox. 
+
+![The contact me footer with four links to two ways of contacting me and links to Github and LinkedIn](https://raw.githubusercontent.com/nbulger1/bulgern-portfolio/main/assets/images/contact_me.png "Contact Me")
+
 
 ## Link
 
