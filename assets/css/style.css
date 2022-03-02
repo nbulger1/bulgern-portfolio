@@ -14,7 +14,8 @@
 body {
     /* defining the overall background color unless otherwise specified */
     background-color: var(--lavendar);
-    font-family: Arial;
+    /* Sans Serif fonts added in order of preference */
+    font-family: Helvetica, Arial, sans-serif;
     margin: 0;
 }
 
@@ -39,6 +40,7 @@ main {
     display: flex;
 }
 
+/* Made the first half of the header flex with the page */
 .header aside {
     flex: 2;
     align-items: center;
@@ -46,32 +48,38 @@ main {
     margin-left: 2px;
 }
 
+/* Make the second half of the header the navigation bar and let it flex with the page */
 .header .header-nav {
     flex: 2;
     background-color: var(--purple);
     padding: 20px;
 }
 
+/* Evenly space out the navigation bar and remove the list style */
 .header-nav ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
 }
 
+/* Make link text white and the cursor a pointer */
 .header a {
     cursor: pointer;
     color: white;
 }
 
+/*Increase the link font size to 20 when they are hovered over */
 .header a:hover {
     font-size: 20px;
 }
 
+/* Set the background image width to fill up the page no matter the size */
 .bandera {
     width: 100%;
 }
 
-.about-me, .contact-me, .work, .resume {
+/* Generally format each article with the same padding, alignment, border-style, border-width, and regular width unless otherwise specified */
+.about-me, .contact-me, .work {
     padding: 10px;
     text-align: center;
     border-style: solid;
@@ -79,11 +87,13 @@ main {
     width: 100%;
 }
 
+/* Turn the about me article into a flexbox that wraps text when it doesn't fit */
 .about-me {
     display: flex;
     flex-wrap: wrap;
 }
 
+/* Make the about me aside... and format the right border */
 .about-me aside {
     flex: 1;
     border-right-color: black;
@@ -91,21 +101,23 @@ main {
     border-right-style: solid;
 }
 
+/* Define the flex of the about me section and define the background color and padding */
 .about-me section {
     flex: 3;
     background-color: var(--purple);
     padding: 20px;
 }
 
+/* Set the profile photo to a height and width as well as give it some padding and a border */
 .profile-photo {
     background-color: white;
-    width: 60%;
+    max-width: 200vw;
     padding: 5px;
     height: 200px;
     border: 1px solid black;
 }
 
-
+/* Create the grid for the 5 different sample projects */
 .work {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -114,14 +126,18 @@ main {
     width: 100%;
 }
 
+/* Format the work header to take up 1 column and all 5 rows as well as add the right sided border */
 .card-column-header {
     grid-column: 1;
     grid-row: 1 / 5;
     border-right-color: black;
     border-right-width: 2px;
     border-right-style: solid;
+    /* This isn't centering it bc it's not a flexbox...do I need to create a new flexbox? */
+    align-items: center;
 }
 
+/* All ".card-column-# selectors define the location of the card in the predefined grid as well as format the border, background color, and the pointer for uniformity */
 .card-column-1 {
     grid-column: 2 / 4;
     grid-row: 1 / 3;
@@ -162,6 +178,7 @@ main {
     cursor: pointer;
 }
 
+/* Create a box-shadow around the grid box as well as change the background color when any of the card-columns are hovered over */
 .card-column-1:hover,
 .card-column-2:hover,
 .card-column-3:hover,
@@ -171,6 +188,7 @@ main {
     background-color: var(--lavendar);
 }
 
+/* Define the format of the card body as well as the card header */
 .card-header, .card-body {
     border: var(--lavendar) solid 3px;
     background-color: var(--lavendar);
@@ -179,11 +197,13 @@ main {
     padding: 2px;
 }
 
+/* Turn the contact me article into a flex box that spaces out the links */
 .contact-me {
     display: flex;
     justify-content: space-between;
 }
 
+/* Define the flex of the contact me aside, center the items, and format the right border */
 .contact-me aside {
     flex: 1;
     align-items: center;
@@ -192,23 +212,27 @@ main {
     border-right-style: solid;
 }
 
+/* Define the flex of the contact me navigation bar as well as background color and padding */
 .contact-me .contact-nav {
     flex: 3;
     background-color: var(--purple);
     padding: 20px;
 }
 
+/* Space out the contact me links by turning the unordered list into a flexbox and removing the list style type */
 .contact-nav ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
 }
 
+/* Make the link text black and the cursor a pointer */
 .contact-me a {
     cursor: pointer;
     color: black;
 }
 
+/* Turn link text white, bold the text, and increase font size to 20px when the links are hovered over */
 .contact-me a:hover {
     color: white;
     font-size: 20px;
