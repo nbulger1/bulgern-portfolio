@@ -262,10 +262,14 @@ main {
     .about-me {
         display: block
     }
+
+    .about-me aside {
+        border: none;
+    }
 }
 
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 400px) {
 /* try with background color first to confirm it works*/
 
     body {
