@@ -45,7 +45,7 @@ main {
     flex: 2;
     align-items: center;
     font-size: 24px;
-    margin-left: 2px;
+    margin-left: 10px;
 }
 
 /* Make the second half of the header the navigation bar and let it flex with the page */
@@ -106,6 +106,7 @@ main {
     flex: 3;
     background-color: var(--purple);
     padding: 20px;
+    font-size: 12px;
 }
 
 /* Set the profile photo to a height and width as well as give it some padding and a border */

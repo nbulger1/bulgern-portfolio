@@ -7,7 +7,7 @@ The task was to create a portfolio page that can contain future project work to 
 ## Table of Contents
 
 - [Application Details](#application)
-- [Background Photo](#background)
+- [Header and Background](#background)
 - [About Me](#about)
 - [Projects](#projects)
 - [Contact Me](#contact)
@@ -43,7 +43,7 @@ Resizing?
 
 The Contact Me footer presents a title - "Contact Me" - as an aside and four links. The first link directs the user to a phone call, the second directs to an email address, and the third/fourth will open a new tab with my Github profile and my LinkedIn page. The links were spaced out within the footer using flexbox. 
 
-![The contact me footer with four links to two ways of contacting me and links to Github and LinkedIn](https://raw.githubusercontent.com/nbulger1/bulgern-portfolio/main/assets/images/contact_me.png "Contact Me")
+![The contact me footer with four links to two ways of contacting me and links to Github and LinkedIn](https://raw.githubusercontent.com/nbulger1/bulgern-portfolio/main/assets/images/contact_me_2.png "Contact Me")
 
 
 ## Link
