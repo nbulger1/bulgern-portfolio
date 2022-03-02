@@ -41,7 +41,7 @@ I have created space for five different projects using the display grid format. 
 
 To resize the project grid for a mobile device, I added in a media screen for devices smaller than 400 px. I adjusted several things in the display to improve mobile device appearance including making the body display inline-block, the articles and contact me unordered list display block, removing the right side border of the asides, and adding padding to the grid cards.
 
-![The project placeholders in a mobile view as a block display in place of grid](https://raw.githubusercontent.com/nbulger1/bulgern-portfolio/main/assets/images/projects_mobile.png "Mobile Project Placeholders")
+![The project placeholders in a mobile view as a block display in place of grid](https://raw.githubusercontent.com/nbulger1/bulgern-portfolio/main/assets/images/projects_mobile_2.png "Mobile Project Placeholders")
 
 ## Contact
 
