@@ -53,14 +53,14 @@ main {
     flex: 2;
     background-color: var(--purple);
     padding: 20px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 /* Evenly space out the navigation bar and remove the list style */
 .header-nav ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -101,6 +101,7 @@ main {
     border-right-color: black;
     border-right-width: 2px;
     border-right-style: solid;
+    font-size: 20px;
 }
 
 /* Define the flex of the about me section and define the background color and padding */
@@ -123,30 +124,33 @@ main {
 /* Create the grid for the 5 different sample projects */
 .work {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 2fr 3fr 3fr;
+    grid-template-rows: 150px;
     gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
+    grid-auto-rows: minmax(75px, auto);
     width: 100%;
+    align-items: center;
+    background-color: var(--purple);
 }
 
 /* Format the work header to take up 1 column and all 5 rows as well as add the right sided border */
 .card-column-header {
     grid-column: 1;
     grid-row: 1 / 5;
-    border-right-color: black;
-    border-right-width: 2px;
-    border-right-style: solid;
-    /* This isn't centering it bc it's not a flexbox...do I need to create a new flexbox? */
-    align-items: center;
+    border-right: black solid 2px;
+    background-color: var(--lavendar);
+    padding-top: 225px;
+    padding-bottom: 225px;
 }
 
-/* All ".card-column-# selectors define the location of the card in the predefined grid as well as format the border, background color, and the pointer for uniformity */
+/* All ".card-column-# selectors define the location of the card in the predefined grid as well as format the border, background image, and the pointer for uniformity */
 .card-column-1 {
     grid-column: 2 / 4;
     grid-row: 1 / 3;
     border: black solid 1px;
-    background-color: var(--purple);
     cursor: pointer;
+    padding: 60px;
+    background: url(/Users/natalie/Desktop/school_work/homework/bulgern-portfolio/assets/images/html.png)
 }
 
 .card-column-2 {
@@ -155,6 +159,7 @@ main {
     border: black solid 1px;
     background-color: var(--purple);
     cursor: pointer;
+    background: url(/Users/natalie/Desktop/school_work/homework/bulgern-portfolio/assets/images/javascript.png)
 }
 
 .card-column-3 {
@@ -163,6 +168,7 @@ main {
     border: black solid 1px;
     background-color: var(--purple);
     cursor: pointer;
+    background: url(/Users/natalie/Desktop/school_work/homework/bulgern-portfolio/assets/images/placeholder.png)
 }
 
 .card-column-4 {
@@ -171,6 +177,7 @@ main {
     border: black solid 1px;
     background-color: var(--purple);
     cursor: pointer;
+    background: url(/Users/natalie/Desktop/school_work/homework/bulgern-portfolio/assets/images/placeholder.png)
 }
 
 .card-column-5 {
@@ -179,6 +186,7 @@ main {
     border: black solid 1px;
     background-color: var(--purple);
     cursor: pointer;
+    background: url(/Users/natalie/Desktop/school_work/homework/bulgern-portfolio/assets/images/placeholder.png)
 }
 
 /* Create a box-shadow around the grid box as well as change the background color when any of the card-columns are hovered over */
@@ -192,12 +200,22 @@ main {
 }
 
 /* Define the format of the card body as well as the card header */
+
+.card-1, .card-2, .card-3, .card-4, .card-5 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card-text {
+    display: block;
+}
+
 .card-header, .card-body {
     border: var(--lavendar) solid 3px;
     background-color: var(--lavendar);
     text-align: right;
     margin: 0px;
-    padding: 2px;
+    padding: 10px;
 }
 
 /* Turn the contact me article into a flex box that spaces out the links */
@@ -244,17 +262,15 @@ main {
     font-weight: bold;
 }
 
-/* Media screen */
+/* Media screen for Desktop */
 @media screen and (max-width: 992px) {
-    /* try with background color first to confirm it works*/
     body {
         display: inline-block;
     }
 }
 
-/* Media screen */
+/* Media screen for tablets */
 @media screen and (max-width: 768px) {
-    /* try with background color first to confirm it works*/
     body {
         display: inline-block;
     }
@@ -268,15 +284,14 @@ main {
     }
 }
 
-
+/* Media screen for smartphones */
 @media screen and (max-width: 400px) {
-/* try with background color first to confirm it works*/
 
     body {
         display: inline-block;
     }
 
-    .header, .about-me, .work, .contact-me ul {
+    .header, .about-me, .work, .contact-me {
         display: block;
     }
 
@@ -285,12 +300,35 @@ main {
     }
 
     .about-me aside {
-        border: none;
+        border-bottom: black solid 1px;
     }
 
     .contact-me aside {
         border: none;
         padding: 3px;
+    }
+
+    .card-column-header {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        border-right: none;
+    }
+
+    .card-column-1, .card-column-2, .card-column-3, .card-column-4, .card-column-5 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .contact-me aside {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .contact-me ul {
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
+        display: block;
     }
 
 }

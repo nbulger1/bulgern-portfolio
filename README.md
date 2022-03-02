@@ -35,11 +35,11 @@ The "About Me" article was broken into an aside and two paragraphs. The aside ho
 
 ## Projects
 
-I have created space for five different projects using the display grid format. Within the grid, the first project takes up the second and third columns as well as the first two rows to appear larger than the other four. All five of the projects have borders that light up dark purple with a box shadow and the background color turns lavendar when they are hovered over. Furthermore, all five projects will redirect the page to a different link when clicked on. 
+I have created space for five different projects using the display grid format. Within the grid, the first project takes up the second and third columns as well as the first two rows to appear larger than the other four. All five of the projects have borders that light up dark purple with a box shadow when they are hovered over. Furthermore, all five projects will redirect the page to a different link when clicked on. 
 
-![The grid of placeholders for projects with project 1 larger than projects 2-4](https://raw.githubusercontent.com/nbulger1/bulgern-portfolio/main/assets/images/work_grid.png  "Work Grid")
+![The grid of placeholders for projects with project 1 larger than projects 2-4](https://raw.githubusercontent.com/nbulger1/bulgern-portfolio/main/assets/images/work_grid_2.png  "Work Grid")
 
-To resize the project grid for a mobile device, I added in a media screen for devices smaller than ____ px. Within the media screen I made the header, about me, and work articles display block.  
+To resize the project grid for a mobile device, I added in a media screen for devices smaller than 400 px. I adjusted several things in the display to improve mobile device appearance including making the body display inline-block, the articles and contact me unordered list display block, removing the right side border of the asides, and adding padding to the grid cards.
 
 ![The project placeholders in a mobile view as a block display in place of grid](https://raw.githubusercontent.com/nbulger1/bulgern-portfolio/main/assets/images/projects_mobile.png "Mobile Project Placeholders")
 
