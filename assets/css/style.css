@@ -7,7 +7,7 @@
 
 /* Universal Selector */
 * {
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 /* Body format */
@@ -37,7 +37,7 @@ main {
     justify-content: space-evenly;
     /* Font color white */
     color: #ffffff;
-    display: flex;
+    flex-wrap: wrap;
 }
 
 /* Made the first half of the header flex with the page */
@@ -61,6 +61,7 @@ main {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /* Make link text white and the cursor a pointer */
@@ -71,7 +72,7 @@ main {
 
 /*Increase the link font size to 20 when they are hovered over */
 .header a:hover {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 /* Set the background image width to fill up the page no matter the size */
@@ -203,6 +204,7 @@ main {
 .contact-me {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /* Define the flex of the contact me aside, center the items, and format the right border */
@@ -226,6 +228,7 @@ main {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /* Make the link text black and the cursor a pointer */
@@ -241,11 +244,49 @@ main {
     font-weight: bold;
 }
 
-/* Ask tutor about this? */
+/* Media screen */
 @media screen and (max-width: 992px) {
-
+    /* try with background color first to confirm it works*/
+    body {
+        display: inline-block;
+    }
 }
 
+/* Media screen */
 @media screen and (max-width: 768px) {
+    /* try with background color first to confirm it works*/
+    body {
+        display: inline-block;
+    }
+
+    .about-me {
+        display: block
+    }
+}
+
+
+@media screen and (max-width: 390px) {
+/* try with background color first to confirm it works*/
+
+    body {
+        display: inline-block;
+    }
+
+    .header, .about-me, .work, .contact-me ul {
+        display: block;
+    }
+
+    .header h1 {
+        text-align: center;
+    }
+
+    .about-me aside {
+        border: none;
+    }
+
+    .contact-me aside {
+        border: none;
+        padding: 3px;
+    }
 
 }

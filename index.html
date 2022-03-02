@@ -2,7 +2,8 @@
 <html lang="en-us">
 
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
     <!-- Linking HTML to CSS file -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Bulger Portfolio</title>
@@ -11,126 +12,128 @@
 </head>
 
 <body>
-    <header class="header">
-        <!-- Header in top left of webpage -->
-        <aside>
-            <h1>Bulger</h1>
-        </aside>
-        <!-- Navigation bar on top right of webpage -->
-        <nav class="header-nav">
-            <ul>
-                <!-- Linking to the About Me Section -->
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <!-- Linking to my Work section -->
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <!-- Linking to my contact information -->
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <!-- Linking to the background image above the about me section -->
-        <img src="./assets/images/bandera_pano.jpeg" alt="Panorama of Bandera Mountain Hike in Washington State with a women sitting in the center wearing all black and looking out at the view. There is a lake on the right and a valley on the left" class="bandera">
-        <!-- Opening the about me article of webpage -->
-        <article class="about-me" id="about-me">
+    <div class="container">
+        <header class="header">
+            <!-- Header in top left of webpage -->
             <aside>
-                <h1>About Me</h1>
-                <!-- Linking to profile photo on the left side of the about me paragraphs-->
-                <img src="./assets/images/BulgerN_VTech Photo.jpg" alt="Profile Photo of Natalie standing in front of Harborview Medical Center in Seattle Washington wearing a blank turtleneck and pink/black flowered skirt" class="profile-photo">
+                <h1>Bulger</h1>
             </aside>
-            <section>
-                 <!-- Paragraph about my background -->
-                <p>
-                Hello! My name is Natalie Bulger. I currently live in Kirkland, WA. I am the Head Fitness Coach at Orangetheory Fitness in Mercer Island, WA. I graduated from Carleton College with my Bachelor's of Arts in Chemistry in June 2019. Prior to working at Orangetheory Fitness, I worked as a Research Assistant and Research Coordinator for the Seattle Medic One (SMO) research office for 2.5 years. While continuing my work remotely for SMO, I moved to Long Island, NY to complete my Masters in Sports Science at Hofstra University. Since graduating with my Masters of Science in June of 2021, I moved back to Washington State and have been exploring the world of fitness. 
-                </p>
-            <!-- Paragraph about how I got interested in coding -->
-                <p>
-                Through my work with SMO, I was exposed to STATA, a statistical and database management software. I spent 2.5 years familiarizing myself with, teaching myself, and ultimately utilizing STATA on a daily basis. That daily activity sparked my interest in coding, thus when time alloted in my career and school life, I applied to and enrolled in the University of Washington Coding Bootcamp. I hope to learn the skills necessary to explore job opportunities in the world of full stack development.  
-                </p>
-            </section>
-        </article>
-
-        <article class="work" id="work">
-            <section class="card-column-header">
-                <figure>
-                  <h2 class="card-header">Work</h2>
-                </figure>
-            </section>
-              <section class="card-column-1" onclick='location.href = "https://www.w3schools.com";'>
-                <figure class="card-1">
-                    <h2 class="card-header">Project 1</h2>
-                    <div class="card-body">
-                    <p>CSS/HTML</p>
-                    </div>
-                </figure>
-            </section>
-            <section class="card-column-2" onclick='location.href = "https://github.com/";'>
-                <figure class="card-2">
-                    <h2 class="card-header">Project 2</h2>
-                    <div class="card-body">
-                    <p>Javascript</p>
-                    </div>
-                </figure>
-            </section>
-            <section class="card-column-3" onclick='location.href = "https://stackoverflow.com/";'>
-                <figure class="card-3">
-                    <h2 class="card-header">Project 3</h2>
-                    <div class="card-body">
-                    <p>Insert Coding Language Here</p>
-                    </div>
-                </figure>
-            </section>
-            <section class="card-column-4" onclick='location.href = "https://flexboxfroggy.com/";'>
-                <figure class="card-4">
-                  <h2 class="card-header">Project 4</h2>
-                  <div class="card-body">
-                    <p>Insert Coding Language Here</p>
-                  </div>
-                </figure>
-            </section>
-            <section class="card-column-5" onclick='location.href = "https://www.freecodecamp.org/";'>
-                <figure class="card-5">
-                  <h2 class="card-header">Project 5</h2>
-                  <div class="card-body">
-                    <p>Insert Coding Language Here</p>
-                  </div>
-                </figure>
-            </section>
-        </article>
-
-        <footer class="contact-me" id="contact-me">
-            <aside>
-                <h1>Contact Me</h1>
-            </aside>
-            <nav class="contact-nav">
+            <!-- Navigation bar on top right of webpage -->
+            <nav class="header-nav">
                 <ul>
-                    <!-- Link to my cell phone number -->
+                    <!-- Linking to the About Me Section -->
                     <li>
-                        <a href="tel:555-555-5555" target="_blank">(555)-555-5555</a>
+                        <a href="#about-me">About Me</a>
                     </li>
-                    <!-- Link to my email address -->
+                    <!-- Linking to my Work section -->
                     <li>
-                        <a href="mailto:natalie@bulger.org" target="_blank">natalie@bulger.org</a>
+                        <a href="#work">Work</a>
                     </li>
-                    <!-- Link to my Github page -->
+                    <!-- Linking to my contact information -->
                     <li>
-                        <a href="https://github.com/nbulger1" target="_blank">Github</a>
-                    </li>
-                    <!-- Link to my LinkedIn page-->
-                    <li>
-                        <a href="https://www.linkedin.com/in/natalie-bulger-6467b4b0/" target="_blank">LinkedIn</a>
+                        <a href="#contact-me">Contact Me</a>
                     </li>
                 </ul>
             </nav>
-        </footer>
-    </main>
+        </header>
+
+        <main>
+            <!-- Linking to the background image above the about me section -->
+            <img src="./assets/images/bandera_pano.jpeg" alt="Panorama of Bandera Mountain Hike in Washington State with a women sitting in the center wearing all black and looking out at the view. There is a lake on the right and a valley on the left" class="bandera">
+            <!-- Opening the about me article of webpage -->
+            <article class="about-me" id="about-me">
+                <aside>
+                    <h1>About Me</h1>
+                    <!-- Linking to profile photo on the left side of the about me paragraphs-->
+                    <img src="./assets/images/BulgerN_VTech Photo.jpg" alt="Profile Photo of Natalie standing in front of Harborview Medical Center in Seattle Washington wearing a blank turtleneck and pink/black flowered skirt" class="profile-photo">
+                </aside>
+                <section>
+                    <!-- Paragraph about my background -->
+                    <p>
+                    Hello! My name is Natalie Bulger. I currently live in Kirkland, WA. I am the Head Fitness Coach at Orangetheory Fitness in Mercer Island, WA. I graduated from Carleton College with my Bachelor's of Arts in Chemistry in June 2019. Prior to working at Orangetheory Fitness, I worked as a Research Assistant and Research Coordinator for the Seattle Medic One (SMO) research office for 2.5 years. While continuing my work remotely for SMO, I moved to Long Island, NY to complete my Masters in Sports Science at Hofstra University. Since graduating with my Masters of Science in June of 2021, I moved back to Washington State and have been exploring the world of fitness. 
+                    </p>
+                <!-- Paragraph about how I got interested in coding -->
+                    <p>
+                    Through my work with SMO, I was exposed to STATA, a statistical and database management software. I spent 2.5 years familiarizing myself with, teaching myself, and ultimately utilizing STATA on a daily basis. That daily activity sparked my interest in coding, thus when time alloted in my career and school life, I applied to and enrolled in the University of Washington Coding Bootcamp. I hope to learn the skills necessary to explore job opportunities in the world of full stack development.  
+                    </p>
+                </section>
+            </article>
+
+            <article class="work" id="work">
+                <section class="card-column-header">
+                    <figure>
+                    <h2 class="card-header">Work</h2>
+                    </figure>
+                </section>
+                <section class="card-column-1" onclick='location.href = "https://www.w3schools.com";'>
+                    <figure class="card-1">
+                        <h2 class="card-header">Project 1</h2>
+                        <div class="card-body">
+                        <p>CSS/HTML</p>
+                        </div>
+                    </figure>
+                </section>
+                <section class="card-column-2" onclick='location.href = "https://github.com/";'>
+                    <figure class="card-2">
+                        <h2 class="card-header">Project 2</h2>
+                        <div class="card-body">
+                        <p>Javascript</p>
+                        </div>
+                    </figure>
+                </section>
+                <section class="card-column-3" onclick='location.href = "https://stackoverflow.com/";'>
+                    <figure class="card-3">
+                        <h2 class="card-header">Project 3</h2>
+                        <div class="card-body">
+                        <p>Insert Coding Language Here</p>
+                        </div>
+                    </figure>
+                </section>
+                <section class="card-column-4" onclick='location.href = "https://flexboxfroggy.com/";'>
+                    <figure class="card-4">
+                    <h2 class="card-header">Project 4</h2>
+                    <div class="card-body">
+                        <p>Insert Coding Language Here</p>
+                    </div>
+                    </figure>
+                </section>
+                <section class="card-column-5" onclick='location.href = "https://www.freecodecamp.org/";'>
+                    <figure class="card-5">
+                    <h2 class="card-header">Project 5</h2>
+                    <div class="card-body">
+                        <p>Insert Coding Language Here</p>
+                    </div>
+                    </figure>
+                </section>
+            </article>
+
+            <footer class="contact-me" id="contact-me">
+                <aside>
+                    <h1>Contact Me</h1>
+                </aside>
+                <nav class="contact-nav">
+                    <ul>
+                        <!-- Link to my cell phone number -->
+                        <li>
+                            <a href="tel:555-555-5555" target="_blank">(555)-555-5555</a>
+                        </li>
+                        <!-- Link to my email address -->
+                        <li>
+                            <a href="mailto:natalie@bulger.org" target="_blank">natalie@bulger.org</a>
+                        </li>
+                        <!-- Link to my Github page -->
+                        <li>
+                            <a href="https://github.com/nbulger1" target="_blank">Github</a>
+                        </li>
+                        <!-- Link to my LinkedIn page-->
+                        <li>
+                            <a href="https://www.linkedin.com/in/natalie-bulger-6467b4b0/" target="_blank">LinkedIn</a>
+                        </li>
+                    </ul>
+                </nav>
+            </footer>
+        </main>
+    </div>
 </body>
 
 </html>
