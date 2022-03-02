@@ -26,7 +26,7 @@ Finally, the portfolio should demonstrate a responsive layout that adapts to the
 
 The header and initial background image are formatted above the remaining sections to create a natural flow. The header presents my last name and three navigation links that, when clicked, will scroll to the corresponding section. The background it set to take up 100% of the webpage width so that it will resize for different screen sizes. It is a picture of me on the Bandera Mountain Hike in Washington State to bring character to my page. I added in an alternate image attribute that describes the location of the image should a viewer be unable to see the image. 
 
-![The header with navigation links as well as background image](https://raw.githubusercontent.com/nbulger1/bulgern-portfolio/main/assets/images/header_background_image.png "Header and Background Image")
+![The header with navigation links as well as background image](https://raw.githubusercontent.com/nbulger1/bulgern-portfolio/main/assets/images/header_background_2.png "Header and Background Image")
 
 ## About
 
