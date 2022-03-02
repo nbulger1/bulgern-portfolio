@@ -11,6 +11,7 @@ The task was to create a portfolio page that can contain future project work to 
 - [About Me](#about)
 - [Projects](#projects)
 - [Contact Me](#contact)
+- [Resizing for Mobile](#resizing)
 - [Link](#link)
 
 ## Application
@@ -29,25 +30,29 @@ The header and initial background image are formatted above the remaining sectio
 
 ## About
 
-The "About Me" article was broken into an aside and two paragraphs. The aside holds the recent profile photo with an altrnate image attribute as well. The paragraphs were divided into my general background, both educational and perinent employment, and the reason I decided to take the UW coding bootcamp. The paragraphs were placed in a flexbox so that they wrap text when needed as the page is resized. 
+The "About Me" article was broken into an aside and two paragraphs. The aside holds the recent profile photo with an alternate image attribute as well. The paragraphs were divided into my general background, both educational and perinent employment, and the reason I decided to take the UW coding bootcamp. The paragraphs were placed in a flexbox so that they wrap text when needed as the page is resized. 
 
 ![The about me section of the webpage with profile photo and paragraphs](https://raw.githubusercontent.com/nbulger1/bulgern-portfolio/main/assets/images/about_me.png "About Me")
 
 ## Projects
 
-I have created space for five different projects using the display grid format. Within the grid, the first project takes up the second and third columns as well as the first two rows to appear larger than the other four. All five of the projects have borders that light up dark purple with a box shadow when they are hovered over. Furthermore, all five projects will redirect the page to a different link when clicked on. 
+I have created space for five different projects using the display grid format. Within the grid, the first project takes up the second and third columns as well as the first two rows to appear larger than the other four. The first two projects have a sample background image and the remaining projects have placeholder images for now. All five of the projects have borders that light up dark purple with a box shadow and the opacity changes to 0.6 when they are hovered over. Furthermore, all five projects will redirect the page to a different link when clicked on. They currently have sample links attached to each card to demonstrate functionality. 
 
 ![The grid of placeholders for projects with project 1 larger than projects 2-4](https://raw.githubusercontent.com/nbulger1/bulgern-portfolio/main/assets/images/work_grid_2.png  "Work Grid")
-
-To resize the project grid for a mobile device, I added in a media screen for devices smaller than 400 px. I adjusted several things in the display to improve mobile device appearance including making the body display inline-block, the articles and contact me unordered list display block, removing the right side border of the asides, and adding padding to the grid cards.
-
-![The project placeholders in a mobile view as a block display in place of grid](https://raw.githubusercontent.com/nbulger1/bulgern-portfolio/main/assets/images/projects_mobile_2.png "Mobile Project Placeholders")
 
 ## Contact
 
 The Contact Me footer presents a title - "Contact Me" - as an aside and four links. The first link directs the user to a phone call, the second directs to an email address, and the third/fourth will open a new tab with my Github profile and my LinkedIn page. The links were spaced out within the footer using flexbox. 
 
 ![The contact me footer with four links to two ways of contacting me and links to Github and LinkedIn](https://raw.githubusercontent.com/nbulger1/bulgern-portfolio/main/assets/images/contact_me_2.png "Contact Me")
+
+## Resizing
+
+To resize the portfolio for a mobile device, I added in a media screen for devices smaller than 992px, 768px, and 400 px. I adjusted several things in the display to improve mobile device appearance including making the body display inline-block, the articles and contact me unordered list display block, removing the right side border of the asides, and adding padding to the grid cards.
+
+See sample image of the adjusted work grid on an iPhone 12 Pro:
+
+![The project placeholders in a mobile view as a block display in place of grid](https://raw.githubusercontent.com/nbulger1/bulgern-portfolio/main/assets/images/projects_mobile_2.png "Mobile Project Placeholders")
 
 
 ## Link

@@ -70,9 +70,9 @@ main {
     color: white;
 }
 
-/*Increase the link font size to 20 when they are hovered over */
+/*Change the link color, in the header, to aqua when they are hovered over */
 .header a:hover {
-    font-size: 24px;
+    color: aqua;
 }
 
 /* Set the background image width to fill up the page no matter the size */
@@ -189,27 +189,28 @@ main {
     background: url(/Users/natalie/Desktop/school_work/homework/bulgern-portfolio/assets/images/placeholder.png)
 }
 
-/* Create a box-shadow around the grid box as well as change the background color when any of the card-columns are hovered over */
+/* Create a box-shadow around the grid box as well as change the opacity when any of the card-columns are hovered over */
 .card-column-1:hover,
 .card-column-2:hover,
 .card-column-3:hover,
 .card-column-4:hover,
 .card-column-5:hover {
-    box-shadow: inset 0px 0px 8px var(--darkpurple), 0 0 15px var(--darkpurple);
-    background-color: var(--lavendar);
+    box-shadow: inset 0px 0px 10px var(--darkpurple), 0 0 20px var(--darkpurple);
+    opacity: 0.6;
 }
 
-/* Define the format of the card body as well as the card header */
-
+/* Turning the cards into flexboxes to force the background color to only surround the text */
 .card-1, .card-2, .card-3, .card-4, .card-5 {
     display: flex;
     justify-content: flex-end;
 }
 
+/* Making the card-text that holds the card body and card header display block */
 .card-text {
     display: block;
 }
 
+/* Define the format of the card body as well as the card header */
 .card-header, .card-body {
     border: var(--lavendar) solid 3px;
     background-color: var(--lavendar);
