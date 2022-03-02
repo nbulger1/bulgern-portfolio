@@ -150,7 +150,7 @@ main {
     border: black solid 1px;
     cursor: pointer;
     padding: 60px;
-    background: url(/Users/natalie/Desktop/school_work/homework/bulgern-portfolio/assets/images/html.png)
+    background: url(https://raw.githubusercontent.com/nbulger1/bulgern-portfolio/main/assets/images/html.png)
 }
 
 .card-column-2 {
@@ -159,7 +159,7 @@ main {
     border: black solid 1px;
     background-color: var(--purple);
     cursor: pointer;
-    background: url(/Users/natalie/Desktop/school_work/homework/bulgern-portfolio/assets/images/javascript.png)
+    background: url(https://raw.githubusercontent.com/nbulger1/bulgern-portfolio/main/assets/images/javascript.png)
 }
 
 .card-column-3 {
@@ -168,7 +168,7 @@ main {
     border: black solid 1px;
     background-color: var(--purple);
     cursor: pointer;
-    background: url(/Users/natalie/Desktop/school_work/homework/bulgern-portfolio/assets/images/placeholder.png)
+    background: url(https://raw.githubusercontent.com/nbulger1/bulgern-portfolio/main/assets/images/placeholder.png)
 }
 
 .card-column-4 {
@@ -177,7 +177,7 @@ main {
     border: black solid 1px;
     background-color: var(--purple);
     cursor: pointer;
-    background: url(/Users/natalie/Desktop/school_work/homework/bulgern-portfolio/assets/images/placeholder.png)
+    background: url(https://raw.githubusercontent.com/nbulger1/bulgern-portfolio/main/assets/images/placeholder.png)
 }
 
 .card-column-5 {
@@ -186,7 +186,7 @@ main {
     border: black solid 1px;
     background-color: var(--purple);
     cursor: pointer;
-    background: url(/Users/natalie/Desktop/school_work/homework/bulgern-portfolio/assets/images/placeholder.png)
+    background: url(https://raw.githubusercontent.com/nbulger1/bulgern-portfolio/main/assets/images/placeholder.png)
 }
 
 /* Create a box-shadow around the grid box as well as change the opacity when any of the card-columns are hovered over */
