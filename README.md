@@ -57,6 +57,6 @@ See sample image of the adjusted work grid on an iPhone 12 Pro:
 
 ## Link
 
-See following for a link to my deployed application: 
+See following for a link to my deployed application: https://nbulger1.github.io/bulgern-portfolio/
 
 
