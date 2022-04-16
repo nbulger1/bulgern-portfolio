@@ -212,17 +212,28 @@ main {
 }
 
 /* Making the card-text that holds the card body and card header display block */
-.card-text {
+.card-text-1, .card-text-2, .card-text-3, .card-text-4, .card-text-5 {
     display: block;
+    text-align: right;
+    background-color: var(--lavendar);
+    border: var(--lavendar) solid 3px;
+
 }
 
-/* Define the format of the card body as well as the card header */
-.card-header, .card-body {
-    border: var(--lavendar) solid 3px;
-    background-color: var(--lavendar);
-    text-align: right;
+.card-body, .card-body-link, .card-header {
+
     margin: 0px;
-    padding: 10px;
+    padding: 5px;
+    color: black;
+}
+
+.card-body-link {
+    color: black;
+    cursor: pointer;
+}
+
+.card-body-link:hover {
+    color: aqua;
 }
 
 /* Turn the contact me article into a flex box that spaces out the links */
