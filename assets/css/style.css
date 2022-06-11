@@ -152,7 +152,7 @@ main {
     background-repeat: no-repeat;
     cursor: pointer;
     padding: 60px;
-    background-image: url(https://raw.githubusercontent.com/nbulger1/bulgern-portfolio/main/assets/images/my_recipes.png)
+    background-image: url(https://raw.githubusercontent.com/nbulger1/bulgern-portfolio/main/assets/images/bens_diner.png)
 }
 
 .card-column-2 {
@@ -163,7 +163,7 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
-    background-image: url(https://raw.githubusercontent.com/nbulger1/bulgern-portfolio/main/assets/images/weather_dashboard.png)
+    background-image: url(https://raw.githubusercontent.com/nbulger1/bulgern-portfolio/main/assets/images/my_recipes.png)
 }
 
 .card-column-3 {
@@ -174,7 +174,7 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
-    background-image: url(https://raw.githubusercontent.com/nbulger1/bulgern-portfolio/main/assets/images/code_quiz.png)
+    background-image: url(https://raw.githubusercontent.com/nbulger1/bulgern-portfolio/main/assets/images/tech_blog.png)
 }
 
 .card-column-4 {
@@ -183,7 +183,7 @@ main {
     border: black solid 1px;
     background-color: var(--purple);
     cursor: pointer;
-    background-image: url(https://raw.githubusercontent.com/nbulger1/bulgern-portfolio/main/assets/images/placeholder.png)
+    background-image: url(https://raw.githubusercontent.com/nbulger1/bulgern-portfolio/main/assets/images/code_quiz.png)
 }
 
 .card-column-5 {
@@ -192,7 +192,7 @@ main {
     border: black solid 1px;
     background-color: var(--purple);
     cursor: pointer;
-    background-image: url(https://raw.githubusercontent.com/nbulger1/bulgern-portfolio/main/assets/images/placeholder.png)
+    background-image: url(https://raw.githubusercontent.com/nbulger1/bulgern-portfolio/main/assets/images/weather_dashboard.png)
 }
 
 /* Create a box-shadow around the grid box as well as change the opacity when any of the card-columns are hovered over */
