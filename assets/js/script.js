@@ -8,7 +8,7 @@ $(".card-column-2").on("click", function () {
 });
 
 $(".card-column-3").on("click", function () {
-  window.open("https://tech-blog-bulger.herokuapp.com/", "_blank");
+  window.open("https://youtu.be/5rVo6Y9TCOY", "_blank");
 });
 
 $(".card-column-4").on("click", function () {
@@ -29,7 +29,10 @@ $(".card-text-2").on("click", function () {
 });
 
 $(".card-text-3").on("click", function () {
-  window.open("https://github.com/nbulger1/tech-blog.git", "_blank");
+  window.open(
+    "https://github.com/nbulger1/team-profile-generator.git",
+    "_blank"
+  );
 });
 
 $(".card-text-4").on("click", function () {
